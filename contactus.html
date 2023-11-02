@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pep Drugs for Us - Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1, p, form {
+            margin: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        form h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        form input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            margin: 10px 20px;
+            color: #007BFF;
+        }
+
+        .social-media-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .social-media-links a {
+            text-decoration: none;
+            color: #333;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Content for the Contact Us page -->
+    <h1>Contact Us</h1>
+    <p>Have questions or need assistance? Contact us below:</p>
+    <form action="contact-handler.html" method="POST">
+        <h2>Contact Form:</h2>  
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="Home.html">Back to Home</a>
+    <a href="aboutus.html">About Us</a>
+
+    <h1>CONNECT WITH US</h1>
+    <div class="social-media-links">
+        <a href="https://www.facebook.com/PEPDrugsForUs" target="_blank"><img src="facebook.png" width="40px">@PEP Drugs For Us</a>
+        <a href="https://www.instagram.com/PEPDrugsForUs" target="_blank"><img src="image20.png" width="40px">@PEP Drugs For Us</a>
+        <a href="https://www.twitter.com/PEPDrugsForUs" target="_blank"><img src="image19.jpg" width="40px">@PEP Drugs For Us</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 PEP Drugs For Us. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:pepdrugsforus@gmail.com">pepdrugsforus@gmail.com</a></p>
+    </footer>
+</body>
+</html>
+
